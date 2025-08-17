@@ -1,11 +1,10 @@
-package com.example.ecommerce.service;
+package com.example.ecommerce.service.category;
 
 import com.example.ecommerce.dto.CategoryDTO;
 import com.example.ecommerce.gateway.FakeStoreCategoryGateway;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class FakeStoreCategoryService implements ICategoryService

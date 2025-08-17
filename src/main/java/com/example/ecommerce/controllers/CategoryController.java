@@ -1,7 +1,7 @@
 package com.example.ecommerce.controllers;
 
 import com.example.ecommerce.dto.CategoryDTO;
-import com.example.ecommerce.service.ICategoryService;
+import com.example.ecommerce.service.category.ICategoryService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

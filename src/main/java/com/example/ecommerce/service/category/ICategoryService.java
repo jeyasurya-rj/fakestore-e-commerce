@@ -1,4 +1,4 @@
-package com.example.ecommerce.service;
+package com.example.ecommerce.service.category;
 
 import com.example.ecommerce.dto.CategoryDTO;
 
