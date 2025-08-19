@@ -11,7 +11,7 @@ public class ProductDTO
 {
     private Long id;
     private String title;
-    private String category;
+    private Long categoryId;
     private BigDecimal price;
     private String description;
     private Integer rating;

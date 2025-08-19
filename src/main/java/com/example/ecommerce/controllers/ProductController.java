@@ -5,9 +5,6 @@ import com.example.ecommerce.service.product.IProductService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @RestController
 @RequestMapping("/api/v1/products")
 public class ProductController
@@ -17,18 +14,6 @@ public class ProductController
     public ProductController(IProductService productService)
     {
         this.productService = productService;
-    }
-
-    @GetMapping
-    public List<ProductDTO> getProducts()
-    {
-        List<ProductDTO> products = new ArrayList<>();
-
-        ProductDTO kitKat = ProductDTO.builder().title("Kit-Kat").category("Food").build();
-
-        products.add(kitKat);
-
-        return products;
     }
 
     @GetMapping("/{id}")
